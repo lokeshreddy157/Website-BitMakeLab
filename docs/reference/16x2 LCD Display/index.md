@@ -1,13 +1,18 @@
- 16x2 LCD Display - Think Create Learn" .v["heading1"] = "16x2 LCD Display" .v["heading2"] = "The 16x2 LCD Display can be used to display two lines of 16 characters." .v["intro"] = "
-
+## 16x2 LCD DISPLAY
+Using an I2C backpack with your 16x2 LCD display makes it much easier to connect to a micro:bit, as it reduces the required wiring down to just four pins (VCC, GND, SDA, and SCL). This is ideal for showing real-time data from your color sensor—such as displaying the exact RGB values or a matching color name right on the screen as you test different objects or light sources.
 Use it to display short messages!
 
-"
-Quick Reference
+### Quick Reference
 Wiring
-Use the I2C cable to connect the sensor. This has 4 wires in 2 pairs: orange-yellow and red-black:
+Connect each wire to its corresponding pin on your micro:bit or breakout board:
 
-.image("../images/i2c-cable.jpg", 400)
+Red to 3V3 (Power)
+
+Black to GND (Ground)
+
+Yellow to SCL (Clock line)
+
+Orange to SDA (Data line
 
 Wire up as follows, using the Edge Connector or Motor Controller board:
 
@@ -20,41 +25,44 @@ Note that the LCD display needs arounf 4.5 - 5V to work well, but the Microbit o
 
 On the edge connector wire it like this, using the 5V "Husky Lens" pins to connect the display and an additional 5V power from a USB input (this can come from a USB port on your computer or a USB power bank):
 
-.image("wiring-edge.png", 600)
+![code](wiring-edge.png)
 
 On the motor controller wire it like this, using the servo connector GND and VIN pins, and a power input such as 3AA batteries:
 
-.image("wiring-motor.png", 600)
+![code](wiring-motor.png)
 
-Coding
-You will need to add an extension to get additional blocks for the display. Click on the extensions block:
+### Coding
+Scroll to the bottom of the block categories, select **Extensions**, type `lcd1602` into the search bar, and click on the package to install it.
 
-.image("../images/block-extension.png")
+**How to verify:** You should see a new **LCD1602** category appear in your block menu on the left side of the screen.
+
+![code](clip.png)
 
 Then search for "lcd":
 
-.image("extensions-search.png")
+![code](extensions-search.png)
 
 Then click on the i2cLD1602 extension:
 
-.image("lcd-extension.png")
+![code](lcd-extension.png)
 
 You should see a new block appear:
 
-.image("lcd-block.png")
+![code](lcd-block.png)
 
 Enter this code in on start and forever blocks:
 
-.image("code1.png")
+![code](Code1.png)
 
 Download the code to the microbit.
 
 The code will show "Hello" on the top line and a random number on the bottom line. The random number changes every half second:
 
-.image("index.jpg", 600)
+![code](index.png)
 
 Note that if the message is not displaying clearly, you can adjust the blue screw on the back of the display to control the contrast. The backlight jumper needs to be present for the backlight to be on:
 
-.image("adjust.jpg", 600)
+![code](adjust.jpg)
+<br/>
 
-.navBack("BitMakeLab main page")s.
+
