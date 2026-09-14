@@ -24,7 +24,7 @@ nav:
       - Button: reference/inputs/button/index.md
       - Potentiometer: reference/inputs/potentiometer/index.md
       - Light Sensor: reference/inputs/light-sensor/index.md
-      -16x2 LED Matrix: reference/inputs/16x2-led-matrix/index.md
+      -16x2 LCD Display: reference/inputs/16x2-lcd-display/index.md
     - Outputs:
       - LED: reference/outputs/led/index.md
     - Motors:
