@@ -3,7 +3,7 @@ Using an I2C backpack with your 16x2 LCD display makes it much easier to connect
 Use it to display short messages!
 
 ### Quick Reference
-Wiring
+### Wiring
 Connect each wire to its corresponding pin on your micro:bit or breakout board:
 
 Red to 3V3 (Power)
@@ -63,6 +63,5 @@ The code will show "Hello" on the top line and a random number on the bottom lin
 Note that if the message is not displaying clearly, you can adjust the blue screw on the back of the display to control the contrast. The backlight jumper needs to be present for the backlight to be on:
 
 ![code](adjust.jpg)
+
 <br/>
-
-
