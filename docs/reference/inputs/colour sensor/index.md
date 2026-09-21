@@ -7,7 +7,7 @@ For the official documentation, you can check the [Adafruit TCS34725 Color Senso
 ### Wiring
 Use the I2C cable to connect the sensor. This has 4 wires in 2 pairs: orange-yellow and red-black:
 
-![code](../images/i2c-cable.jpg)
+![code](../../../assests/i2c-cable.jpg)
 
 Wire up as follows, using the Edge Connector or Motor Controller board:
 

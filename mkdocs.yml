@@ -23,6 +23,7 @@ nav:
     - Inputs:
       - Button: reference/inputs/button/index.md
       - Potentiometer: reference/inputs/potentiometer/index.md
+      - colour sensor: reference/inputs/colour senor/ondex.md
     - Outputs:
       - LED: reference/outputs/led/index.md
     - Motors:
