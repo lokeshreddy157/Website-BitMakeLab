@@ -63,5 +63,5 @@ You should see some numbers and a graph. These show the colour components. Place
 To accurately measure the color of a light source like a lamp, you should disable the color sensor's built-in LED so it doesn't interfere with your readings. Simply run an extra wire from the sensor's LED pin to a GND pin on the micro:bit.
 
 ![code](wiring-edge-ledoff.png)
-<br/>
 
+<br/>

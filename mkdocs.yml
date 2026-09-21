@@ -23,7 +23,12 @@ nav:
     - Inputs:
       - Button: reference/inputs/button/index.md
       - Potentiometer: reference/inputs/potentiometer/index.md
+<<<<<<< HEAD
       - colour sensor: reference/inputs/colour senor/ondex.md
+=======
+      - Light Sensor: reference/inputs/light-sensor/index.md
+      - 16x2 LCD Display: reference/inputs/16x2-lcd-display/index.md
+>>>>>>> a8b3b2ad89340a77a32fbf7790c273f9c7a52e57
     - Outputs:
       - LED: reference/outputs/led/index.md
     - Motors:
